@@ -1,0 +1,32 @@
+#####################
+# Sample Slide Show (S9) template package manifest using impress.js
+# - impress.js by Bartek Szopka (aka bartaz); see https://github.com/bartaz/impress.js 
+#
+# Change as desired/needed
+#
+# Configured to use the following headers in slides.html.erb:
+#
+# author: Your Name Here
+# title: Your Slide Show Title Here
+#
+# Questions? Comments?
+# Send them along to the Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List.
+# http://groups.google.com/group/webslideshow
+
+
+index.html slides.html.erb
+#__file__.css style.css.erb
+
+# javascript libraries
+js/impress.js
+js/codemirror.js
+js/python.js
+js/skulpt.js
+js/editor.js
+
+# graphics
+apple-touch-icon.png
+
+# stylesheets
+css/codemirror.css
+css/impress.css

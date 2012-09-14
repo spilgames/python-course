@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+for x in beginners; do
+    [ ! -d ss/$x ] && mkdir ss/$x
+    slideshow -t python-course -o ss/$x/ $x.md
+done
