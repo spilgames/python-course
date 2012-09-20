@@ -1,6 +1,7 @@
 .CodeMirror {
   line-height: 1em;
   font-family: monospace;
+  font-size: 18px;
 
   /* Necessary so the scrollbar can be absolutely positioned within the wrapper on Lion. */
   position: relative;
@@ -9,12 +10,14 @@
 }
 
 .CodeMirror-scroll {
-  overflow: auto;
+  /* overflow: auto; */
   height: 300px;
   /* This is needed to prevent an IE[67] bug where the scrolled content
      is visible outside of the scrolling box. */
   position: relative;
   outline: none;
+  height: auto;
+  overflow: visible;
 }
 
 /* Vertical scrollbar */

@@ -14,7 +14,7 @@
 # http://groups.google.com/group/webslideshow
 
 
-index.html slides.html.erb
+index.html slides-auto.html.erb
 css/python-course.css style.css.erb
 
 # javascript libraries

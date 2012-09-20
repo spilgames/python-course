@@ -22,11 +22,22 @@
 <div id="impress">
 
     <!-- note: assumes no header (breaking slides w/ SLIDE directive) -->
-<% @slides.each do |slide| %>
-    <div class='step <%= slide.classes %>' <%= slide.data_attributes %>>
+<% 
+x = 0
+y = 0
+z = 0
+dx = 1000
+dy = 0
+dz = 0
+@slides.each do |slide| %>
+    <div class='step slide' data-x='<%= x.to_s %>' data-y='<%= y.to_s %>' data-z='<%= z.to_s %>'>
       <%= slide.content %>
     </div>
-<% end %>
+<%
+x = x + dx
+y = y + dy
+z = z + dz
+end %>
 
 </div>
 <div id="stdout" style="width: 100%; background-color: #000; color: #FFF; position: fixed; bottom: 0px"></div>
