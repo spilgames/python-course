@@ -1,4 +1,5 @@
-!SLIDE x=0 y=0
+author: Jasper Capel
+title: Python for beginners
 
 Introduction
 ============
