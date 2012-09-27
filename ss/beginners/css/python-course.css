@@ -33,4 +33,3 @@ pre, code {
 pre {
     margin-left: 1em;
 }
-<%= content_for :css %>

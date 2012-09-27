@@ -26,17 +26,30 @@
 x = 0
 y = 0
 z = 0
+rx = 0
+ry = 0
+rz = 0
 dx = 1000
 dy = 0
-dz = 0
+dz = 500
+drx = 90
+dry = 90
+drz = 0
+
+
+
+
 @slides.each do |slide| %>
-    <div class='step slide' data-x='<%= x.to_s %>' data-y='<%= y.to_s %>' data-z='<%= z.to_s %>'>
+    <div class='step slide' data-x='<%= x.to_s %>' data-y='<%= y.to_s %>' data-z='<%= z.to_s %>' data-rotate-x='<%= rx.to_s %>' data-rotate-y='<%= ry.to_s %>' data-rotate-z='<%= rz.to_s %>'>
       <%= slide.content %>
     </div>
 <%
 x = x + dx
 y = y + dy
 z = z + dz
+rx = rx + drx
+ry = ry + dry
+rz = rz + drz
 end %>
 
 </div>
