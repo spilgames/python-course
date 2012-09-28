@@ -19,7 +19,7 @@ Preparation
 -----------
 Clone the repository that includes the exercises and presentation:
 
-    git clone git@github.com:spilgames/python-course.git
+    git clone git://github.com/spilgames/python-course.git
 
 Python cares about whitespace, we have to configure our editors to play nice.
 
@@ -258,7 +258,7 @@ Numbers
 * octal: `012`, `0456`
 * hex: `0xf34`, `0X12FA`
 * complex: `3+4j`, `2J`, `5.0+2.5j`
-* Operators, like `*`, `>>` `+` , `<`.
+* Operators, like `*`, `>>`, `+` , `<`.
 * Functions, like `abs()`, `pow()`.
 * Utilities, like `rand` and `math`
 * If you need more, see the NumPy extension
@@ -354,6 +354,10 @@ Lists
 * Concatenate: `L1 + L2`, Repeat: `L2 * 3`
 * Iteration: `for x in L2`
 * Membership: `3 in L2`
+
+!SLIDE
+Lists (cont.)
+-------------
 * Grow: `L2.append(4)`, `L2.extend(L1)`
 * Sort: `L2.sort()`, Search: `L2.index(1)`, Reverse: `L2.reverse()`
 * Shrink: `del L2[k]`, `L2[n:j] = []`
@@ -378,15 +382,15 @@ Loops
 Examples:
 
 <textarea>
-l1 = ["aap", "beer", "tijger", "olifant"]
-for el in l1:
+L1 = ["aap", "beer", "tijger", "olifant"]
+for el in L1:
     print el.upper()
 </textarea>
 
 <textarea>
-l1 = ["aap", "beer", "tijger", "olifant"]
-while len(l1):
-    print l1.pop().upper()
+L1 = ["aap", "beer", "tijger", "olifant"]
+while len(L1):
+    print L1.pop().upper()
 </textarea>
 !SLIDE
 
