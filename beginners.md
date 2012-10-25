@@ -15,44 +15,6 @@ About the author
 
 !SLIDE slide x=-300 y=100 scale=0.2
 
-Preparation
------------
-Clone the repository that includes the exercises and presentation:
-
-    git clone git://github.com/spilgames/python-course.git
-
-Python cares about whitespace, we have to configure our editors to play nice.
-
-!SLIDE
-
-VIM
----
-
-As with everything vim, there are many ways to do this. For this course, just add the following lines to your vimrc:
-
-    set expandtab
-    set tabstop=4
-    set shiftwidth=4
-
-For a more comprehensive guide, see: http://wiki.python.org/moin/Vim or just google for `Python vim` and click one of the 15 million-or-so results.
-
-!SLIDE
-
-Sublime Text 2
---------------
-
-In Sublime Text 2, add the following settings to your configuration:
-
-	"indent_to_bracket": true,
-	"translate_tabs_to_spaces": true,
-	"trimTrailingWhiteSpaceOnSave": true,
-	"trim_automatic_white_space": true
-
-You should also install `SublimeLinter`, which checks your code to see if it conforms to PEP8.
-
-
-!SLIDE
-
 What is python?
 ---------------
 * Dynamically typed
@@ -330,6 +292,43 @@ Typecasting (cont.)
 * To float: `float()`
 * To octal: `oct()`
 * To hexadecimal: `hex()`
+
+!SLIDE
+Preparation
+-----------
+Clone the repository that includes the exercises and presentation:
+
+    git clone git@github.com:spilgames/python-course.git
+
+Python cares about whitespace, we have to configure our editors to play nice.
+
+!SLIDE
+
+VIM
+---
+
+As with everything vim, there are many ways to do this. For this course, just add the following lines to your vimrc:
+
+    set expandtab
+    set tabstop=4
+    set shiftwidth=4
+
+For a more comprehensive guide, see: http://wiki.python.org/moin/Vim or just google for `Python vim` and click one of the 15 million-or-so results.
+
+!SLIDE
+
+Sublime Text 2
+--------------
+
+In Sublime Text 2, add the following settings to your configuration:
+
+	"indent_to_bracket": true,
+	"translate_tabs_to_spaces": true,
+	"trimTrailingWhiteSpaceOnSave": true,
+	"trim_automatic_white_space": true
+
+You should also install `SublimeLinter`, which checks your code to see if it conforms to PEP8.
+
 
 !SLIDE
 
